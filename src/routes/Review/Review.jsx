@@ -8,7 +8,7 @@ export const Review = () => {
 
     React.useEffect(() => {
         const fetchApplications = async () => {
-            const res = await fetch("/get_applications");
+            const res = await fetch(`${process.env.API}/get_applications`);
             if (res.status !== 200) return new Error("error");
             const applications = await res.json();
             setApplications(applications);
