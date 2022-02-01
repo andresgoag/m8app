@@ -1,0 +1,19 @@
+.thanks__container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.thanks__container h2 {
+    font-size: 4rem;
+    color: #16599b;
+}
+
+.thanks__container p {
+    font-size: 2.5rem;
+}

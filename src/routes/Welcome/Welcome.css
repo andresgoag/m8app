@@ -1,0 +1,70 @@
+.welcome__banner {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background: black;
+    background: linear-gradient(0deg, #000000c5, 60%, #ffffff56),
+        url("https://images.pexels.com/photos/8436663/pexels-photo-8436663.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome__banner p {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 5rem;
+    color: #eeeeee;
+    text-shadow: 1px 1px 2px rgb(248, 248, 248);
+}
+
+.welcome__container {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome__action {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #094d92;
+    color: #eeeeee;
+    font-size: 2.4rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.welcome__action:hover {
+    background-color: #16599b;
+    box-shadow: 2px 2px 5px #4d4d4d;
+}
+
+.welcome__home {
+    width: 80%;
+    max-width: 550px;
+    margin: 50px 0;
+}
+
+.welcome__home figure {
+    width: 100%;
+}
+
+.welcome__home img {
+    width: 100%;
+}
+
+.welcome__container .welcome__action {
+    margin: 50px 0;
+}
+
+.welcome__text {
+    text-align: center;
+}

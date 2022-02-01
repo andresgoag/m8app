@@ -1,0 +1,32 @@
+.review__container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.review__home {
+    width: 60%;
+    max-width: 400px;
+    margin: 50px 0;
+}
+
+.review__home figure,
+.review__home img {
+    width: 100%;
+}
+
+.review__container ul {
+    list-style: none;
+}
+
+.review__container h2 {
+    text-align: center;
+    background-color: #16599b;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 2.4rem;
+}

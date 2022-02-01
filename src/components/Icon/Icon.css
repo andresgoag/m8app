@@ -1,0 +1,10 @@
+.icon__container .icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.icon__container .icon:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,48 @@
+.application__container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e7e7e7;
+    min-height: 50px;
+    overflow: scroll;
+}
+
+.application__container:hover {
+    background-color: #e7e7e7;
+}
+
+.application__info {
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.application__info-date {
+    width: 110px;
+}
+.application__info-name {
+    width: 250px;
+}
+.application__info-email {
+    width: 350px;
+}
+.application__info-github {
+    flex-grow: 1;
+}
+
+.application__container::-webkit-scrollbar {
+    display: none;
+}
+
+.application__container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.application__container a {
+    color: #16599b;
+}
+
+.application__icons {
+    display: flex;
+    margin: 0 10px;
+}
