@@ -8,7 +8,9 @@ export const Review = () => {
 
     React.useEffect(() => {
         const fetchApplications = async () => {
-            const res = await fetch(`${process.env.API}/get_applications`);
+            const res = await fetch(
+                `https://m8appapi.herokuapp.com/get_applications`
+            );
             if (res.status !== 200) return new Error("error");
             const applications = await res.json();
             setApplications(applications);
@@ -23,7 +25,7 @@ export const Review = () => {
             id,
         };
 
-        fetch(`${process.env.API}/update_application`, {
+        fetch(`https://m8appapi.herokuapp.com/update_application`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
@@ -40,7 +42,7 @@ export const Review = () => {
     };
 
     const deleteApplication = (id) => {
-        fetch(`${process.env.API}/delete_application`, {
+        fetch(`https://m8appapi.herokuapp.com/delete_application`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",

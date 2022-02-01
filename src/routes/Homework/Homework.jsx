@@ -16,7 +16,7 @@ export const Homework = () => {
             github,
         };
 
-        fetch(`${process.env.API}/add_application`, {
+        fetch(`https://m8appapi.herokuapp.com/add_application`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
